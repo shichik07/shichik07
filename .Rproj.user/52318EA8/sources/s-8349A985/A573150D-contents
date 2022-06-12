@@ -3,7 +3,7 @@ title: "JuliusKricheldorff"
 theme: theme.css
 description: |
   JuliusKricheldorff
-output_dir: "_site"
+output_dir: "docs"
 navbar:
   right:
     - text: "Home"
