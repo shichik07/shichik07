@@ -1,0 +1,13 @@
+---
+title: "About this site"
+description: |
+  Some additional details about the website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+Personal Website of Julius Kricheldorff
+
+* PhD-Student Carl von Ossietzky University Witt-Lab 2018-
+

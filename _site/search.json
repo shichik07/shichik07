@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\nPersonal Website of Julius Kricheldorff\nPhD-Student Carl von Ossietzky University Witt-Lab 2018-\n\n\n\n",
+      "last_modified": "2022-06-12T22:05:59+02:00"
+    },
+    {
+      "path": "index.html",
+      "title": "JuliusKricheldorff",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\nThis is going to be good\n\n\n\n",
+      "last_modified": "2022-06-12T22:05:59+02:00"
+    },
+    {
+      "path": "projects.html",
+      "title": "Projects",
+      "author": [],
+      "contents": "\nProjects Updating\n\n\n\n",
+      "last_modified": "2022-06-12T22:05:59+02:00"
+    }
+  ],
+  "collections": []
+}
