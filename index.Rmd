@@ -1,5 +1,5 @@
 ---
-title: "JuliusKricheldorff"
+title: "Julius Kricheldorff"
 description: |
   Welcome to the website. I hope you enjoy it!
 site: distill::distill_website
@@ -12,4 +12,4 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/website.html
 
 ```
-This is going to be good
+I am a final year PhD-Student at the department of Neurology at Carl von Ossietzky University Oldenburg. I investigate cognitive symptoms associated with Parkinson's disease (PD). Particularly the impact of PD on decision-making- and cognitive control abilities.  For my research I use a mix of  behavioral experiments, EEG recordings and a wide array of analysis methods, including Bayesian statistical modeling and Drift-Diffusion model analyses.

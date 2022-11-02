@@ -1,15 +1,29 @@
-name: "JuliusKricheldorff"
-title: "JuliusKricheldorff"
-theme: theme.css
+name: "Julius Kricheldorff"
+title: "Julius Kricheldorff"
+theme: theme2.css
 description: |
-  JuliusKricheldorff
+  Julius Kricheldorff
 output_dir: "docs"
 navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "About"
+    - text: "About Me"
       href: about.html
     - text: "Projects"
       href: projects.html
+
+      
+  left: 
+    - icon: fa-envelope fa-lg
+      href: mailto:<julius@kricheldorff.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/shichk07/
+    - icon: fa-twitter fa-lg
+      href: http://twitter.com/89julesk/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/julius-kricheldorff-b858a4177/
+    - icon: fa-graduation-cap fa-lg
+      href: https://scholar.google.de/citations?hl=en&user=BuobG4hQmpgC
+    
 output: distill::distill_article
