@@ -5,7 +5,7 @@
       "title": "Julius Kricheldorff",
       "author": [],
       "contents": "\nContact Information\nEmail: julius@kricheldorff.de\nEducation\nPhD Student Cognitive Neuroscience, Carl von Ossietzky University\nDate: March 2019 - Present\nDissertation: “Decision-making deficits in Parkinson’s disease”\nAdvisor: Prof. Dr. med. K. Witt\nMaster of Science in Behavioural and Cognitive Neuroscience, University of Groningen\nDate: September 2016 - August 2018\nBachelor of Science in Psychology, University of Groningen\nDate: September 2012 - August 2016\nWork Experience\nResearch Assistant, Carl von Ossietzky University\nDate: June 2019 - Present\nResponsibilities:\nDesigned, implemented and recorded behavioural- and EEG experiments\nAcquisition, planning and running the EEG research lab\nMentored and supervision of medical students on best practices for scientific research\n\nSkills\nProgramming languages: Python, R, MATLAB\nAnalysis software: SPSS, JASP\nExperimental Software: Psychopy, Opensesame, Psychtoolbox\nNeuroimaging: Electroencephalography\nImaging software: Fieldtrip, EEGLAB\nStatistical modeling: GLM, mixed-effects modeling, Bayesian regression modeling, drift-diffusion modeling\nVersion control: Git, GitHub\nData visualization: ggplot2, seaborn\n\n\n\n",
-      "last_modified": "2023-03-11T17:21:36+01:00"
+      "last_modified": "2023-03-11T18:12:06+01:00"
     },
     {
       "path": "index.html",
@@ -13,14 +13,14 @@
       "description": "Cognitive Neuroscience PhD Student - Carl von Ossietzky University\n",
       "author": [],
       "contents": "\n\nI am a final year PhD-Student at the department of Neurology at Carl von Ossietzky University Oldenburg. I investigate cognitive symptoms associated with Parkinson’s disease (PD) with a focus on decision-making- and cognitive control abilities. For my research I use a mix of behavioral experiments, EEG recordings and a wide array of analysis methods, including Bayesian statistical modeling and Drift-Diffusion model analyses.\n\n\n\n",
-      "last_modified": "2023-03-11T17:21:37+01:00"
+      "last_modified": "2023-03-11T18:12:07+01:00"
     },
     {
       "path": "projects.html",
       "title": "Projects",
       "author": [],
       "contents": "\nAdaptive control in Parkinson’s disease\nCan patients with Parkinson’s disease learn to adjust their level of cognitive control depending on context? Adaptive control has been studied in Parkinson’s disease mainly in the context of proactive control and with mixed results. In our project we compared the ability of participants with Parkinon’s disease to age matched healthy control participants. We found evidence for proactive control to be generally impaired in PD and reduced abilities to modulate conflict information in reactive control.\nFrequency effects of deep brain stimulation in Parkinson’s disease\nHigh frequency deep brain stimulation is successfully used in Parkinson’s disease for the treatment of motor symptoms. Previous research has suggested that cognitive capabilities may possibly be modulated by low frequency stimulation with a peak frequency in the theta band (4 Hz). We were interested whether these low frequency stimulation effect may be band specific and affect different cognitive domains when using a peak frequency in the beta band (20 Hz). Using a selection of behavioral task we found no effect in the previously indicated cognitive control domains, but distinct improvements response selection abilities.\nCan individuals with Parkinson’s disease use prior information in their decision-making?\n\n\n\n",
-      "last_modified": "2023-03-11T17:21:37+01:00"
+      "last_modified": "2023-03-11T18:12:08+01:00"
     }
   ],
   "collections": []
