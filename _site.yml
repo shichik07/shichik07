@@ -8,11 +8,10 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "About Me"
-      href: about.html
     - text: "Projects"
       href: projects.html
-
+    - text: "CV"
+      href: CV.html
       
   left: 
     - icon: fa-envelope fa-lg
