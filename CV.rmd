@@ -21,6 +21,10 @@ output:
 ### Master of Science in Behavioural and Cognitive Neuroscience, University of Groningen
 
 - Date: September 2016 - August 2018
+- Thesis II: "Does cognitive Processing add-up?" Assessing the assumption of pure insterion with a hidden semi-Markov model analysis
+- Supervisor: Dr. Jelmer Borst 
+- Thesis I: "Using evidence accumulation to decode perceptual and memory decisions from EEG data" A ridge regression analysis
+- Supervisor: Dr. Marieke van Vugt
 
 ### Bachelor of Science in Psychology, University of Groningen
 
@@ -32,9 +36,9 @@ output:
 
 - Date: June 2019 - Present
 - Responsibilities:
-  - Designed, implemented and recorded behavioural- and EEG experiments 
+  - Designed, implemented, recorded behavioural- and EEG experiments 
   - Acquisition, planning and running the EEG research lab
-  - Mentored and supervision of medical students on best practices for scientific research 
+  - Mentoring and supervision of medical students on best practices for scientific research 
   
 ## Skills
 

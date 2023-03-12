@@ -10,6 +10,6 @@ Can patients with Parkinson's disease learn to adjust their level of cognitive c
 
 ## Frequency effects of deep brain stimulation in Parkinson's disease
 
-High frequency deep brain stimulation is successfully used in Parkinson's disease for the treatment of motor symptoms. Previous research has suggested that cognitive capabilities may possibly be modulated by low frequency stimulation with a peak frequency in the theta band (4 Hz). We were interested whether these low frequency stimulation effect may be band specific and affect different cognitive domains when using a peak frequency in the beta band (20 Hz). Using a selection of behavioral task we found no effect in the previously indicated cognitive control domains, but distinct improvements response selection abilities.
+High frequency deep brain stimulation is successfully used in Parkinson's disease for the treatment of motor symptoms. Previous research has suggested that cognitive capabilities may possibly be modulated by low frequency stimulation with a peak frequency in the theta band (4 Hz). We were interested whether these low frequency stimulation effects may be band specific and affect different cognitive domains when using a peak frequency in the beta band (20 Hz). Using a selection of behavioral task we found no effect in the previously indicated cognitive control domains, but distinct improvements response selection abilities.
 
 ## Can individuals with Parkinson's disease use prior information in their decision-making?
