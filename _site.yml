@@ -24,5 +24,7 @@ navbar:
       href: https://www.linkedin.com/in/julius-kricheldorff-b858a4177/
     - icon: fa-graduation-cap fa-lg
       href: https://scholar.google.de/citations?hl=en&user=BuobG4hQmpgC
+    - icon: osf.png
+      href: https://osf.io/profile/
     
 output: distill::distill_article
