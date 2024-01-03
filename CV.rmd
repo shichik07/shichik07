@@ -34,7 +34,7 @@ output:
 
 ### Research Assistant, Carl von Ossietzky University
 
-- Date: June 2019 - Present
+- Date: March 2019 - Present
 - Responsibilities:
   - Designed, implemented, recorded behavioural- and EEG experiments 
   - Acquisition, planning and running the EEG research lab
