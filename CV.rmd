@@ -1,53 +1,11 @@
 ---
-title: "Julius Kricheldorff"
+title: "Curriculum vitae - Julius Kricheldorff"
 output:
   distill::distill_article:
-    css: styles2.css
+    #css: styles2.css
 ---
 
-## Contact Information
 
-- Email: julius@kricheldorff.de
+You can find my CV below and also [download it here](files/cv.pdf).
 
-
-## Education
-
-### PhD Student Cognitive Neuroscience, Carl von Ossietzky University
-
-- Date: March 2019 - Present
-- Dissertation: "Decision-making deficits in Parkinson's disease"
-- Advisor: Prof. Dr. med. K. Witt
-
-### Master of Science in Behavioural and Cognitive Neuroscience, University of Groningen
-
-- Date: September 2016 - August 2018
-- Thesis II: "Does cognitive Processing add-up?" Assessing the assumption of pure insterion with a hidden semi-Markov model analysis
-- Supervisor: Dr. Jelmer Borst 
-- Thesis I: "Using evidence accumulation to decode perceptual and memory decisions from EEG data" A ridge regression analysis
-- Supervisor: Dr. Marieke van Vugt
-
-### Bachelor of Science in Psychology, University of Groningen
-
-- Date: September 2012 - August 2016
-
-## Work Experience
-
-### Research Assistant, Carl von Ossietzky University
-
-- Date: March 2019 - Present
-- Responsibilities:
-  - Designed, implemented, recorded behavioural- and EEG experiments 
-  - Acquisition, planning and running the EEG research lab
-  - Mentoring and supervision of medical students on best practices for scientific research 
-  
-## Skills
-
-- Programming languages: Python, R, MATLAB
-- Analysis software: SPSS, JASP
-- Experimental Software: Psychopy, Opensesame, Psychtoolbox
-- Neuroimaging: Electroencephalography
-- Imaging software: Fieldtrip, EEGLAB
-- Statistical modeling: GLM, mixed-effects modeling, Bayesian regression modeling, drift-diffusion modeling
-- Version control: Git, GitHub
-- Data visualization: ggplot2, seaborn
-
+<embed src="files/cv.pdf" width="100%" height="800px" type="application/pdf">

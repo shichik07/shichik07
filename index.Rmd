@@ -1,7 +1,7 @@
 ---
 title: "Julius Kricheldorff"
 description: |
-  Cognitive Neuroscience PhD Student - Carl von Ossietzky University
+  Data Analyst | PhD Student - Carl von Ossietzky University
 site: distill::distill_website
 ---
 
@@ -15,4 +15,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <img id="header-image" src="profile.jpg" alt="Header Image">
 
-I am a PhD-Student (test) at the department of Neurology at Carl von Ossietzky University Oldenburg. I investigate cognitive symptoms associated with Parkinson's disease (PD) with a focus on decision-making- and cognitive control abilities.  For my research I use a mix of  behavioral experiments, EEG recordings and a wide array of analysis methods, including Bayesian statistical modeling and Drift-Diffusion model analyses.
+I am a PhD student in the Department of Neurology at Carl von Ossietzky University Oldenburg, currently transitioning into a career as a Data Analyst. My doctoral research focuses on investigating cognitive symptoms associated with Parkinson's disease (PD), with a particular emphasis on decision-making and cognitive control abilities.
+
+In my academic work, I employ a multifaceted approach combining behavioral experiments and EEG recordings. I utilize a wide array of advanced analytical methods, including Bayesian statistical modeling and Drift-Diffusion model analyses, which has laid a strong foundation for my transition into data analytics.
+
+My research experience involves processing and interpreting complex neurological data, skills that I'm now leveraging as I move into the field of data analysis. This transition allows me to apply my expertise in extracting insights from intricate datasets to a broader range of industries and problems.

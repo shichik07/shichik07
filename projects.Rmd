@@ -5,11 +5,13 @@ output: distill::distill_article
 
 ## Adaptive control in Parkinson's disease
 
-Can patients with Parkinson's disease learn to adjust their level of cognitive control depending on context? Adaptive control has been studied in Parkinson's disease mainly in the context of proactive control and with mixed results. In our project we compared the ability of participants with Parkinon's disease to age matched healthy control participants. We found evidence for proactive control to be generally impaired in PD and reduced abilities to modulate conflict information in reactive control.
+Our study investigated whether **Parkinson's disease** (PD) patients can **adjust their cognitive control** based on context, comparing them to age-matched healthy controls. We examined both proactive and reactive aspects of cognitive control, areas where previous research has shown mixed results. Our findings revealed that PD patients generally have **impaired proactive control** and reduced ability to modulate conflict information in reactive control. These results suggest PD affects multiple aspects of cognitive control, potentially impacting patients' adaptability to changing environments. For more details, our full study is available in [*Brain Communications*](https://doi.org/10.1093/braincomms/fcad327).
 
 
-## Frequency effects of deep brain stimulation in Parkinson's disease
+## Low-Frequency Deep Brain Stimulation Improves Response Inhibition in Parkinson's Disease
 
-High frequency deep brain stimulation is successfully used in Parkinson's disease for the treatment of motor symptoms. Previous research has suggested that cognitive capabilities may possibly be modulated by low frequency stimulation with a peak frequency in the theta band (4 Hz). We were interested whether these low frequency stimulation effects may be band specific and affect different cognitive domains when using a peak frequency in the beta band (20 Hz). Using a selection of behavioral task we found no effect in the previously indicated cognitive control domains, but distinct improvements response selection abilities.
+In a recent study, we explored the effects of low-frequency deep brain stimulation (DBS) on **cognitive function in Parkinson's disease** patients. We compared **20Hz (beta band) stimulation** of the subthalamic nucleus (STN) to standard high-frequency and no stimulation. The study involved 17 participants who underwent four neuropsychological experiments testing various aspects of cognitive control. Our results revealed that **low-frequency STN-DBS improved reactive response inhibition** compared to high-frequency and no stimulation. This finding suggests that beta-band STN-DBS may offer cognitive benefits for Parkinson's patients, potentially opening new possibilities for managing non-motor symptoms in Parkinson's disease using DBS technology. A manuscript with the full study is presently submitted.
 
 ## Can individuals with Parkinson's disease use prior information in their decision-making?
+
+A forthcoming project, where we investigate how patients with PD can integrate prior information into their decisions. Stay tuned!
