@@ -24,7 +24,7 @@
       url('../fonts/atma-v6-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
       url('../fonts/atma-v6-latin-600.svg#Atma') format('svg'); /* Legacy iOS */
   }
-  
+
 /* righteous-regular - latin */
 @font-face {
   font-family: 'Righteous';
@@ -40,19 +40,19 @@
 }
 
 /* base variables */
-  
+
   /* Edit the CSS properties in this file to create a custom
 Distill theme. Only edit values in the right column
 for each row; values shown are the CSS defaults.
 To return any property to the default,
 you may set its value to: unset
 All rows must end with a semi-colon.                      */
-  
+
   /* Optional: embed custom fonts here with `@import`          */
   /* This must remain at the top of this file.                 */
-  
-  
-  
+
+
+
 html {
     /*-- Main font sizes --*/
     --title-size:      50px;
@@ -97,7 +97,7 @@ d-appendix {
 
 /*-- WEBSITE HEADER + FOOTER --*/
   /* These properties only apply to Distill sites and blogs  */
-  
+
 .distill-site-header {
     --title-size:       18px;
     --text-color:       #AD0059;
@@ -105,7 +105,6 @@ d-appendix {
     --hover-color:      black;
     --bkgd-color:       white;
 }
-
 .distill-site-footer {
   --text-color:       #AD0059;
   --text-size:        15px;
@@ -120,7 +119,7 @@ d-appendix {
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
-  
+
 nav {
     border-bottom: 2px solid rgba(222, 222, 222, 0.3);
 }
@@ -139,12 +138,12 @@ nav {
   display: flex!important;
   flex-wrap: wrap;
 }
-.w-20 { 
-  width: 20%; 
+.w-20 {
+  width: 20%;
   min-width: 400px;
 }
-.w-33 { 
-  width: 33%; 
+.w-33 {
+  width: 33%;
   min-width: 400px;
 }
 
@@ -193,13 +192,13 @@ d-appendix .citation-appendix {
   }
 }
 
-/*  category tag color  */ 
+/*  category tag color  */
 .dt-tags .dt-tag {
     color: rgba(255, 255, 255, 0.6);
     border-color: rgba(255, 255, 255, 0.6);
 }
 
-/*  code color highlights and bg */ 
+/*  code color highlights and bg */
   d-article div.sourceCode pre {
     border-left: 2px solid rgba(121,0,62,0.1);
     background-color: #fff5f6!important;
@@ -209,14 +208,14 @@ d-appendix .citation-appendix {
   }
 
 /* scroll bar color */
-  
+
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
@@ -224,12 +223,12 @@ d-appendix .citation-appendix {
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  background: rgba(173, 0, 89, 0.8); 
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+  background: rgba(173, 0, 89, 0.8);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
 
 /* end scroll bar color */
-  
+
 d-article pre {
     background-color: #e3e3e3;
     padding: 10px;
