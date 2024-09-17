@@ -5,7 +5,7 @@
       "title": "Curriculum vitae - Julius Kricheldorff",
       "author": [],
       "contents": "\r\nYou can find my CV below and also download it here.\r\n\r\n\r\n\r\n",
-      "last_modified": "2024-09-17T15:03:22+02:00"
+      "last_modified": "2024-09-17T15:09:13+02:00"
     },
     {
       "path": "index.html",
@@ -13,14 +13,14 @@
       "description": "Data Analyst | PhD Student - Carl von Ossietzky University\n",
       "author": [],
       "contents": "\r\n\r\nI am a PhD student in the Department of Neurology at Carl von Ossietzky University Oldenburg, currently transitioning into a career as a Data Analyst. My doctoral research focuses on investigating cognitive symptoms associated with Parkinson’s disease (PD), with a particular emphasis on decision-making and cognitive control abilities.\r\nIn my academic work, I employ a multifaceted approach combining behavioral experiments and EEG recordings. I utilize a wide array of advanced analytical methods, including Bayesian statistical modeling and Drift-Diffusion model analyses, which has laid a strong foundation for my transition into data analytics.\r\nMy research experience involves processing and interpreting complex neurological data, skills that I’m now leveraging as I move into the field of data analysis. This transition allows me to apply my expertise in extracting insights from intricate datasets to a broader range of industries and problems.\r\n\r\n\r\n\r\n",
-      "last_modified": "2024-09-17T15:01:55+02:00"
+      "last_modified": "2024-09-17T15:08:56+02:00"
     },
     {
       "path": "projects.html",
       "title": "Projects",
       "author": [],
       "contents": "\r\nAdaptive control in Parkinson’s disease\r\nOur study investigated whether Parkinson’s disease (PD) patients can adjust their cognitive control based on context, comparing them to age-matched healthy controls. We examined both proactive and reactive aspects of cognitive control, areas where previous research has shown mixed results. Our findings revealed that PD patients generally have impaired proactive control and reduced ability to modulate conflict information in reactive control. These results suggest PD affects multiple aspects of cognitive control, potentially impacting patients’ adaptability to changing environments. For more details, our full study is available in Brain Communications.\r\nLow-Frequency Deep Brain Stimulation Improves Response Inhibition in Parkinson’s Disease\r\nIn a recent study, we explored the effects of low-frequency deep brain stimulation (DBS) on cognitive function in Parkinson’s disease patients. We compared 20Hz (beta band) stimulation of the subthalamic nucleus (STN) to standard high-frequency and no stimulation. The study involved 17 participants who underwent four neuropsychological experiments testing various aspects of cognitive control. Our results revealed that low-frequency STN-DBS improved reactive response inhibition compared to high-frequency and no stimulation. This finding suggests that beta-band STN-DBS may offer cognitive benefits for Parkinson’s patients, potentially opening new possibilities for managing non-motor symptoms in Parkinson’s disease using DBS technology. A manuscript with the full study is presently submitted.\r\nCan individuals with Parkinson’s disease use prior information in their decision-making?\r\nA forthcoming project, where we investigate how patients with PD can integrate prior information into their decisions. Stay tuned!\r\n\r\n\r\n\r\n",
-      "last_modified": "2024-09-17T14:38:04+02:00"
+      "last_modified": "2024-09-17T15:09:06+02:00"
     }
   ],
   "collections": []
