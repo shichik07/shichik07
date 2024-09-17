@@ -107,7 +107,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["Curriculum vitae - Julius Kricheldorff"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"NULL"}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["Curriculum vitae - Julius Kricheldorff"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2355,33 +2355,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     width: 200px;
   }
 
-  /* atma-regular - latin */
-    @font-face {
-      font-family: 'Atma';
-      font-style: normal;
-      font-weight: 400;
-      src: url('../fonts/atma-v6-latin-regular.eot'); /* IE9 Compat Modes */
-      src: local(''),
-      url('../fonts/atma-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('../fonts/atma-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-        url('../fonts/atma-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
-        url('../fonts/atma-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('../fonts/atma-v6-latin-regular.svg#Atma') format('svg'); /* Legacy iOS */
-    }
-  /* atma-600 - latin */
-    @font-face {
-      font-family: 'Atma';
-      font-style: normal;
-      font-weight: 600;
-      src: url('../fonts/atma-v6-latin-600.eot'); /* IE9 Compat Modes */
-      src: local(''),
-      url('../fonts/atma-v6-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('../fonts/atma-v6-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-        url('../fonts/atma-v6-latin-600.woff') format('woff'), /* Modern Browsers */
-        url('../fonts/atma-v6-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('../fonts/atma-v6-latin-600.svg#Atma') format('svg'); /* Legacy iOS */
-    }
-
   /* righteous-regular - latin */
   @font-face {
     font-family: 'Righteous';
@@ -2424,10 +2397,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       --aside-color:     rgba(0, 0, 0, 0.6);
       --fig-cap-color:   rgba(0, 0, 0, 0.6);
       /*-- Specify custom fonts ~~~ must be imported above   --*/
-      --heading-font:    Atma;
+      --heading-font:    sans-serif;
       --mono-font:       monospace;
       --body-font:       sans-serif;
-      --navbar-font:     Atma;  /* websites + blogs only */
+      --navbar-font:     sans-serif;  /* websites + blogs only */
   }
 
   /*-- ARTICLE METADATA --*/
@@ -2507,7 +2480,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   .distill-site-header .title {
     min-width: 0px;
-    font-family: 'Righteous', cursive!important;
+    font-family: sans-serif, cursive!important;
   }
 
   d-title {

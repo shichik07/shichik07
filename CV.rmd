@@ -1,8 +1,6 @@
 ---
 title: "Curriculum vitae - Julius Kricheldorff"
-output:
-  distill::distill_article:
-    #css: styles2.css
+output: distill::distill_article
 ---
 
 
