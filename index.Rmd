@@ -13,10 +13,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-<img id="header-image" src="profile.jpg" alt="Header Image">
+<img id="header-image" src="new_profile.jpg" alt="Header Image">
 
-I am a PhD student in the Department of Neurology at Carl von Ossietzky University Oldenburg, currently transitioning into a career as a Data Analyst. My doctoral research focuses on investigating cognitive symptoms associated with Parkinson's disease (PD), with a particular emphasis on decision-making and cognitive control abilities.
+<div class="project-card">
+I am a Data Analyst with CGM Mare and a former PhD student at the Department of Neurology at Carl von Ossietzky University Oldenburg. My doctoral research focuses on investigating cognitive symptoms associated with Parkinson's disease (PD), with a particular emphasis on decision-making and cognitive control abilities.
 
-In my academic work, I employ a multifaceted approach combining behavioral experiments and EEG recordings. I utilize a wide array of advanced analytical methods, including Bayesian statistical modeling and Drift-Diffusion model analyses, which has laid a strong foundation for my transition into data analytics.
-
-My research experience involves processing and interpreting complex neurological data, skills that I'm now leveraging as I move into the field of data analysis. This transition allows me to apply my expertise in extracting insights from intricate datasets to a broader range of industries and problems.
+In my academic work, I employ a multifaceted approach combining behavioral experiments and EEG recordings. I utilize advanced analytical methods, including Bayesian statistical modeling and Drift-Diffusion model analyses.
+</div>

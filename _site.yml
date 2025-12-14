@@ -18,7 +18,7 @@ navbar:
       href: mailto:<julius@kricheldorff.com>
     - icon: fa-github fa-lg
       href: https://github.com/shichik07/
-    - icon: fa-bluesky fa-lg
+    - icon: fa-cloud fa-lg
       href: https://bsky.app/profile/berlincj.bsky.social
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/julius-kricheldorff-b858a4177/
