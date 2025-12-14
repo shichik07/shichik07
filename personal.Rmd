@@ -1,0 +1,39 @@
+---
+title: "Personal"
+output: distill::distill_article
+---
+
+# Personal Interests & Activities
+
+Welcome to my personal section! Here I share some of my hobbies and interests outside of academia.
+
+---
+
+## 🍳 Recipes
+
+I love cooking and experimenting with different cuisines. Here are some of my favorite recipes:
+
+### Recent Posts
+<div class="project-card">
+<h3><a href="marinated-beef-fillet.html">Marinated Beef Fillet</a></h3>
+<p>The perfect recipe for your Christmas buffet - use as topping for salad or as charcuterie on top of bread.</p>
+<small>December 14, 2025</small>
+</div>
+
+<div class="project-card">
+<h3><a href="recipe-homemade-pizza.html">Homemade Pizza from Scratch</a></h3>
+<p>Create authentic Italian-style pizza at home with this simple recipe.</p>
+<small>December 14, 2025</small>
+</div>
+
+<div style="text-align: center; margin-top: 2rem;">
+<a href="recipes.html" class="cv-download-btn">
+<i class="fa-solid fa-book-open"></i> View All Recipes
+</a>
+</div>
+
+---
+
+## 📚 Other Interests
+
+Coming soon - sections on books, travel, and more!

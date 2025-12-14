@@ -1,0 +1,42 @@
+---
+title: "Homemade Pizza from Scratch"
+output: distill::distill_article
+---
+
+
+Create authentic Italian-style pizza at home with this simple recipe.
+
+---
+
+## Ingredients
+
+### Dough (enough for three pizzas)
+- 360g all-purpose flour (Italian 00 flower or German 405)
+- a pinch of yeast (depends how long you want your dough to rest)
+- 13g salt
+- 12g olive oil
+- 240g warm water
+
+
+## Instructions
+
+1. **Make the dough**: Mix flour, yeast, and salt. Add water and oil, knead for 10 minutes. Let rise for at least 6 hours, best overnight in the fridge.
+3. **Preheat oven**: Set to highest temperature (usually 500°F/260°C).
+4. **Shape the pizza**: Cut the dough into chunks ~200g. Spread out your dough on a floured surface.
+5. **Assemble**: Spread sauce, add your toppings and drizzle with olive oil.
+6. **Bake**: 10-12 minutes until crust is golden and cheese is bubbly.
+7. **Finish**: Top with fresh basil before serving.
+
+## Pro Tips
+
+- Use a pizza stone for crispy crust
+- Don't overload with toppings
+- Let the dough rest at room temperature for 30 minutes before shaping
+
+---
+
+<div style="text-align: center; margin-top: 2rem;">
+<a href="recipes.html" class="cv-download-btn">
+<i class="fa-solid fa-arrow-left"></i> Back to Recipes
+</a>
+</div>

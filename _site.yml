@@ -10,6 +10,8 @@ navbar:
       href: index.html
     - text: "Projects"
       href: projects.html
+    - text: "Personal"
+      href: personal.html
     - text: "CV"
       href: CV.html
       

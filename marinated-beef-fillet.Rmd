@@ -1,0 +1,37 @@
+---
+title: "Marinated beef fillet"
+output: distill::distill_article
+---
+
+A staple for our Christmas buffet tradition. Source for this recipe is [Essen und Trinken](https://www.essen-und-trinken.de/) August 2006.
+
+---
+
+## Ingredients
+
+- 60g pepper-corn (black, white, szechuan) 
+- 400g beef fillet
+- 150g coarse salt
+- 60g sugar
+- 3 tbs El vin Santo
+- fresh thyme
+
+## Instructions
+
+1. Remove time leaves from stems and chop them roughly. Crush the pepper-corns. Mix salt, sugar and wine into a paste.
+2. Pat the fillet dry - first roll in your thyme leaves, next the pepper.
+3. Spread the salt sugar paste around the filet and leave it in the fridge for 24 hours.
+4. Remove the paste under running water, pat the fillet dry and tightly wrap it in cellophane wrap. Keep it in the fridge for another 24 hours.
+5. Cut it into thin slices and serve as you like - e.g. as a topping to a salad, on bread etc.
+
+## Tips
+
+- If you cut the fillet by hand, put it in the freezer for half an hour before
+
+---
+
+<div style="text-align: center; margin-top: 2rem;">
+<a href="recipes.html" class="cv-download-btn">
+<i class="fa-solid fa-arrow-left"></i> Back to Recipes
+</a>
+</div>
