@@ -64,9 +64,12 @@ body {
 d-article {
   background: var(--bg-primary);
   border-radius: var(--spacing-md);
-  margin: var(--spacing-md);
+  margin: var(--spacing-sm);
   box-shadow: var(--shadow-sm);
   padding: var(--spacing-xl);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .distill-site-header {
@@ -258,6 +261,18 @@ img, canvas, iframe, video, svg, select, textarea {
     max-width: 100%;
   }
   
+  d-article {
+    margin: 0;
+    padding: var(--spacing-md);
+    max-width: 100%;
+  }
+  
+  .distill-site-header,
+  .distill-site-footer {
+    margin: 0;
+    border-radius: 0;
+  }
+  
   h1, .air-h1 { font-size: 2.5rem; }
   h2, .air-h2 { font-size: 2rem; }
   h3, .air-h3 { font-size: 1.5rem; }
@@ -269,6 +284,7 @@ img, canvas, iframe, video, svg, select, textarea {
   
   .project-card {
     padding: var(--spacing-lg);
+    margin: 0 0 var(--spacing-md) 0;
   }
 }
 
