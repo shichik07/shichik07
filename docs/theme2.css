@@ -1,216 +1,261 @@
+/* Base Styles */
+html {
+  font-size: 18px;
+}
+
+body {
+  color: #444;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 1.85;
+  margin: 6rem auto 1rem;
+  max-width: 48rem;
+  text-align: center;
+}
+
+/* Typography */
+p, .air-p {
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+h1, .air-h1, h2, .air-h2, h3, .air-h3, h4, .air-h4 {
+  margin: 1.414rem 0 .5rem;
+  font-weight: inherit;
+  line-height: 1.42;
+}
+
+h1, .air-h1 { font-size: 3.998rem; margin-top: 0; }
+h2, .air-h2 { font-size: 2.827rem; }
+h3, .air-h3 { font-size: 1.999rem; }
+h4, .air-h4 { font-size: 1.414rem; }
+h5, .air-h5 { font-size: 1.121rem; }
+h6, .air-h6 { font-size: .88rem; }
+small, .air-small { font-size: .707em; }
+
+/* Images and Media */
+img, canvas, iframe, video, svg, select, textarea {
+  max-width: 100%;
+}
+
+#header-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Responsive Design */
+@media screen and (min-width: 32rem) {
+  html { font-size: 21px; }
+}
+
+/* Print Styles */
 @media print {
-  *,
-  *:before,
-  *:after {
+  *, *:before, *:after {
     background: transparent !important;
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
 
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
+  a, a:visited { text-decoration: underline; }
 
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  a[href^="#"]:after, a[href^="javascript:"]:after { content: ""; }
 
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
-  }
-
-  pre,
-  blockquote {
+  pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  thead {
-    display: table-header-group;
-  }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
 
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-
-  img {
-    max-width: 100% !important;
-  }
-
-  p,
-  h2,
-  h3 {
+  p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
+  h2, h3 { page-break-after: avoid; }
 }
 
-html {
-  font-size: 18px;
+/* Custom Fonts */
+@font-face {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/righteous-v9-latin-regular.eot');
+  src: local(''),
+       url('../fonts/righteous-v9-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/righteous-v9-latin-regular.woff2') format('woff2'),
+       url('../fonts/righteous-v9-latin-regular.woff') format('woff'),
+       url('../fonts/righteous-v9-latin-regular.ttf') format('truetype'),
+       url('../fonts/righteous-v9-latin-regular.svg#Righteous') format('svg');
 }
 
-#header-image {
-  width: 250px; /* Change the width and height to fit your image */
-  height: 250px;
-  border-radius: 50%; /* This creates a round shape */
-  object-fit: cover; /* This ensures the image fills the entire space */
-  margin: 20px auto; /* This centers the image and adds some margin */
-  display: block;
+/* Distill-specific Styles */
+:root {
+  --title-size: 50px;
+  --body-size: 1.06rem;
+  --code-size: 14px;
+  --aside-size: 12px;
+  --fig-cap-size: 13px;
+  --title-color: black;
+  --header-color: rgba(0, 0, 0, 0.8);
+  --body-color: rgba(0, 0, 0, 0.8);
+  --aside-color: rgba(0, 0, 0, 0.6);
+  --fig-cap-color: rgba(0, 0, 0, 0.6);
+  --heading-font: sans-serif;
+  --mono-font: monospace;
+  --body-font: sans-serif;
+  --navbar-font: sans-serif;
 }
 
-@media screen and (min-width: 32rem) and (max-width: 48rem) {
-  html {
-    font-size: 21px;
-  }
+d-byline {
+  --heading-size: 0.6rem;
+  --heading-color: rgba(173, 0, 89, 0.5);
+  --body-size: 0.8rem;
+  --body-color: rgba(173, 0, 89, 0.8);
 }
 
-@media screen and (min-width: 48rem) {
-  html {
-    font-size: 21px;
-  }
+.d-contents {
+  --heading-size: 18px;
+  --contents-size: 13px;
 }
 
-
-
-body {
-line-height: 1.85;
-color: #444;
-font-family: 'Open Sans', Helvetica, sans-serif;
-font-weight: 300;
-margin: 6rem auto 1rem;
-max-width: 100%; /* change the max-width value to the desired width */
-text-align: center;
+d-appendix {
+  --heading-size: 15px;
+  --heading-color: rgba(0, 0, 0, 0.65);
+  --text-size: 0.8em;
+  --text-color: rgba(0, 0, 0, 0.5);
 }
 
-p,
-.air-p {
-  font-size: 1rem;
-  margin-bottom: 1.3rem;
+/* Site Header and Footer */
+.distill-site-header {
+  --title-size: 18px;
+  --text-color: #e7fff9;
+  --text-size: 15px;
+  --hover-color: #c0d4cf;
+  --bkgd-color: #014c38;
 }
 
-h1,
-.air-h1,
-h2,
-.air-h2,
-h3,
-.air-h3,
-h4,
-.air-h4 {
-  margin: 1.414rem 0 .5rem;
-  font-weight: inherit;
-  line-height: 1.42;
+.distill-site-footer {
+  --text-color: #e7fff9;
+  --text-size: 15px;
+  --hover-color: #c0d4cf;
+  --bkgd-color: #014c38;
+  border-top: 3px solid #AD0059;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
-h1,
-.air-h1 {
-  margin-top: 0;
-  font-size: 3.998rem;
-}
+/* Additional Custom Styles */
+nav { border-bottom: 2px solid rgba(222, 222, 222, 0.3); }
 
-h2,
-.air-h2 {
-  font-size: 2.827rem;
-}
-
-h3,
-.air-h3 {
-  font-size: 1.999rem;
-}
-
-h4,
-.air-h4 {
-  font-size: 1.414rem;
-}
-
-h5,
-.air-h5 {
-  font-size: 1.121rem;
-}
-
-h6,
-.air-h6 {
-  font-size: .88rem;
-}
-
-small,
-.air-small {
-  font-size: .707em;
-}
-
-/* https://github.com/mrmrs/fluidity */
-
-img,
-canvas,
-iframe,
-video,
-svg,
-select,
-textarea {
-  max-width: 100%;
-}
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300);
-
-body {
-  color: #444;
-  font-family: 'Open Sans', Helvetica, sans-serif;
-  font-weight: 300;
-  margin: 6rem auto 1rem;
-  max-width: 48rem;
+.distill-site-actual-footer {
   text-align: center;
+  background-color: #AD0059;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.6rem;
+  padding: 10px 0;
 }
 
-img {
-  border-radius: 50%;
-  height: 200px;
-  margin: 0 auto;
-  width: 200px;
+.flex-container {
+  padding: 0 15px;
+  display: flex !important;
+  flex-wrap: wrap;
 }
 
-a,
-a:visited {
-  color: #3498db;
+.w-20, .w-33 {
+  min-width: 400px;
 }
 
-a:hover,
-a:focus,
-a:active {
-  color: #2980b9;
+.w-20 { width: 20%; }
+.w-33 { width: 33%; }
+
+.distill-site-header .title {
+  min-width: 0px;
+  font-family: sans-serif, cursive !important;
 }
 
-pre {
-  background-color: #fafafa;
-  padding: 1rem;
-  text-align: left;
+d-title {
+  background-color: white;
+  color: black;
 }
 
-blockquote {
+.posts-list > h1 { color: black !important; }
+
+d-title a { color: white; }
+
+d-byline { background-color: #f6e5ee; }
+
+d-appendix {
+  background-color: #F8F8F8;
+}
+
+d-appendix .citation-appendix { color: black; }
+
+.distill-site-footer { margin-top: 0; }
+
+/* Print-specific styles */
+@media print {
+  d-byline {
+    --heading-color: rgba(0, 0, 0, 0.5);
+    --body-color: rgba(0, 0, 0, 0.8);
+  }
+  d-title {
+    --title-color: rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+/* Category tag styles */
+.dt-tags .dt-tag {
+  color: rgba(255, 255, 255, 0.6);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Code highlighting */
+d-article div.sourceCode pre {
+  border-left: 2px solid rgba(121,0,62,0.1);
+  background-color: #fff5f6 !important;
+  padding: 10px 0;
+  overflow-x: auto !important;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: rgba(173, 0, 89, 0.8);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+/* Code and pre styles */
+d-article pre {
+  background-color: #e3e3e3;
+  padding: 10px;
+}
+
+code span.fu, code span.kw {
+  color: #AD0059;
+}
+
+div.sourceCode, pre, d-article pre {
   margin: 0;
-  border-left: 5px solid #7a7a7a;
-  font-style: italic;
-  padding: 1.33em;
-  text-align: left;
-}
-
-ul,
-ol,
-li {
-  text-align: left;
-}
-
-p {
-  color: #777;
 }

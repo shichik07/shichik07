@@ -1,6 +1,6 @@
 name: "Julius Kricheldorff"
 title: "Julius Kricheldorff"
-theme: theme3.css
+theme: theme2.css
 description: |
   Julius Kricheldorff
 output_dir: "docs"
@@ -17,9 +17,9 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<julius@kricheldorff.com>
     - icon: fa-github fa-lg
-      href: http://github.com/shichik07/
-    - icon: fa-twitter fa-lg
-      href: http://twitter.com/89julesk/
+      href: https://github.com/shichik07/
+    - icon: fa-bluesky fa-lg
+      href: https://bsky.app/profile/berlincj.bsky.social
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/julius-kricheldorff-b858a4177/
     - icon: fa-graduation-cap fa-lg
