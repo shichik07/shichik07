@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Julius Kricheldorff{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <img src="{% static 'img/new_profile.jpg' %}" alt="Portrait of Julius Kricheldorff">
+  <div>
+    <h1>Julius Kricheldorff</h1>
+    <p class="tagline">Data Analyst | PhD Student &mdash; Carl von Ossietzky University</p>
+  </div>
+</section>
+
+<div class="card glass">
+  {% for paragraph in bio_paragraphs %}
+  <p>{{ paragraph }}</p>
+  {% endfor %}
+</div>
+{% endblock %}

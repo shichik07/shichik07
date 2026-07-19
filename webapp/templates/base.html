@@ -1,0 +1,41 @@
+{% load static site_extras %}<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Julius Kricheldorff{% endblock %}</title>
+  <meta name="description" content="{% block description %}Julius Kricheldorff — Data Analyst &amp; PhD researcher in cognitive neuroscience{% endblock %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+  <canvas id="eeg-canvas" aria-hidden="true"></canvas>
+
+  <div class="site-wrapper">
+    <header class="site-header">
+      <nav class="navbar glass">
+        <a class="brand" href="{% url 'home' %}">Julius Kricheldorff</a>
+        <ul class="nav-links">
+          {% for link in nav_links %}
+          <li><a href="{% url link.url_name %}" class="{% if active == link.url_name %}active{% endif %}">{{ link.label }}</a></li>
+          {% endfor %}
+        </ul>
+        <div class="social-icons">
+          {% for s in social_links %}
+          <a href="{{ s.href }}" title="{{ s.label }}" target="_blank" rel="noopener">{% icon s.icon %}</a>
+          {% endfor %}
+        </div>
+      </nav>
+    </header>
+
+    <main class="site-main">
+      {% block content %}{% endblock %}
+    </main>
+
+    <footer class="site-footer">
+      &copy; {% now "Y" %} Julius Kricheldorff
+    </footer>
+  </div>
+
+  <script src="{% static 'js/eeg.js' %}"></script>
+</body>
+</html>

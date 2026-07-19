@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Projects &middot; Julius Kricheldorff{% endblock %}
+
+{% block content %}
+<h1 class="page-title">Projects</h1>
+
+{% for project in projects %}
+<div class="card glass">
+  <h2>{{ project.title }}</h2>
+  <p>{{ project.body }}
+    {% if project.link %}For more details, our full study is available in
+    <a href="{{ project.link.href }}" target="_blank" rel="noopener">{{ project.link.label }}</a>.{% endif %}
+  </p>
+</div>
+{% endfor %}
+{% endblock %}

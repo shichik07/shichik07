@@ -1,32 +1,34 @@
 # Personal Website - Julius Kricheldorff
 
-Personal [website](https://julius-kricheldorff.com/) created using [distill](https://github.com/rstudio/distill).
-
-## Build Instructions
-
-This website is built using R Markdown and the Distill package. To build locally:
-
-1. Install required R packages:
-   ```r
-   install.packages(c("distill", "rmarkdown"))
-   ```
-
-2. Build the website:
-   ```r
-   rmarkdown::render_site()
-   ```
-
-3. The built site will be generated in the `docs/` directory, which is configured for GitHub Pages deployment.
+Personal [website](https://julius-kricheldorff.com/), built with Django and exported to static HTML for GitHub Pages.
 
 ## Project Structure
 
-- `index.Rmd` - Homepage content
-- `projects.Rmd` - Projects page
-- `CV.rmd` - Curriculum vitae page
-- `_site.yml` - Site configuration and navigation
-- `theme2.css` - Active theme stylesheet
-- `files/` - Static assets (CV PDF, etc.)
+- `webapp/` - Django project (source of truth for content and templates)
+  - `config/` - Django settings, URLs
+  - `pages/` - the single app: views, page copy (`content.py`), management command
+  - `templates/` - `base.html` (Liquid Glass UI shell, EEG canvas) + one template per page
+  - `static/` - CSS, JS, images, CV PDF
+- `docs/` - generated static site, published via GitHub Pages (do not edit by hand)
+- `legacy-rmarkdown/` - the previous Distill/R Markdown site, kept for reference
+
+## Build Instructions
+
+```bash
+cd webapp
+python -m venv ../.venv && source ../.venv/bin/activate  # first time only
+pip install django
+
+python manage.py runserver   # preview locally at http://127.0.0.1:8000
+python manage.py build_static # regenerate docs/ for deployment
+```
+
+`build_static` renders every page with Django's test client and writes the
+result into `docs/`, alongside `CNAME` and `.nojekyll`, using the same
+filenames the site has always used (`index.html`, `projects.html`, etc.) so
+existing links keep working.
 
 ## Deployment
 
-The site is configured to deploy to GitHub Pages from the `docs/` directory. Push changes to the main branch to trigger automatic deployment.
+The site deploys to GitHub Pages from the `docs/` directory. Run
+`python manage.py build_static`, commit the regenerated `docs/`, and push.

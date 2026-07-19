@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load site_extras %}
+
+{% block title %}Recipes &middot; Julius Kricheldorff{% endblock %}
+
+{% block content %}
+<h1 class="page-title">Recipe Collection</h1>
+<p>Here are some of my favorite recipes that I enjoy cooking. Click on any recipe to view the full details.</p>
+
+{% for recipe in recipes %}
+<div class="card glass recipe-card">
+  <h3><a href="{% url 'recipe-detail' recipe.slug %}">{{ recipe.title }}</a></h3>
+  <p>{{ recipe.teaser }}</p>
+  <small class="recipe-meta">{% icon "utensils" %} {{ recipe.category }} &bull; {{ recipe.date }}</small>
+</div>
+{% endfor %}
+{% endblock %}
