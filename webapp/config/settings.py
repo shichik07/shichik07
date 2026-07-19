@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -20,16 +21,24 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure--#ip^qa*6x3enm$)00c*e1hfs*4+gdu20bft_9w_ue-34y7b3%"
+# The fallback below is for local preview/export only (this project is never
+# deployed as a live server - see build_static) and is intentionally marked
+# "django-insecure-" so it's obvious it must not be reused if that ever changes.
+# Set DJANGO_SECRET_KEY in the environment instead of editing this file.
+SECRET_KEY = os.environ.get(
+    "DJANGO_SECRET_KEY",
+    "django-insecure-ievy@th_w-nqnwp*a3q83(g=ou^+s(7-pe08nu^cutgmj0&$+y",
+)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get("DJANGO_DEBUG", "true").lower() == "true"
 
 # This project only ever runs locally (manage.py runserver for previewing,
 # manage.py build_static for exporting) - the deployed artifact is the
-# static HTML in docs/, not a live Django server - so a permissive host
-# list is fine here.
-ALLOWED_HOSTS = ["*"]
+# static HTML in docs/, not a live Django server - so a permissive default
+# host list is fine here. Override with a comma-separated DJANGO_ALLOWED_HOSTS
+# if that ever changes.
+ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS", "*").split(",")
 
 
 # Application definition
