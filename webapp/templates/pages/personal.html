@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load site_extras %}
+
+{% block title %}Personal &middot; Julius Kricheldorff{% endblock %}
+
+{% block content %}
+<h1 class="page-title">Personal Interests &amp; Activities</h1>
+<p>Welcome to my personal section! Here I share some of my hobbies and interests outside of academia.</p>
+
+<h2>{% icon "utensils" %} Recipes</h2>
+<p>I love cooking and experimenting with different cuisines. Here are some of my favorite recipes:</p>
+
+{% for recipe in recent_recipes %}
+<div class="card glass recipe-card">
+  <h3><a href="{% url 'recipe-detail' recipe.slug %}">{{ recipe.title }}</a></h3>
+  <p>{{ recipe.teaser }}</p>
+  <small class="recipe-meta">{{ recipe.date }}</small>
+</div>
+{% endfor %}
+
+<div class="btn-row">
+  <a href="{% url 'recipes' %}" class="btn glass">{% icon "book" %} View All Recipes</a>
+</div>
+
+<h2 style="margin-top: 2.5rem;">Other Interests</h2>
+<p>Coming soon &mdash; sections on books, travel, and more!</p>
+{% endblock %}

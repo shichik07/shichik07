@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load site_extras %}
+
+{% block title %}{{ recipe.title }} &middot; Julius Kricheldorff{% endblock %}
+
+{% block content %}
+<h1 class="page-title">{{ recipe.title }}</h1>
+
+<div class="card glass">
+  {% if recipe.source %}
+  <p>A staple for our Christmas buffet tradition. Source for this recipe is
+    <a href="{{ recipe.source.href }}" target="_blank" rel="noopener">{{ recipe.source.label }}</a>
+    {{ recipe.source.note }}.</p>
+  {% else %}
+  <p>{{ recipe.teaser }}</p>
+  {% endif %}
+
+  <div class="recipe-section">
+    <h2>Ingredients</h2>
+    <ul>
+      {% for item in recipe.ingredients %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="recipe-section">
+    <h2>Instructions</h2>
+    <ol>
+      {% for step in recipe.instructions %}
+      <li>{{ step }}</li>
+      {% endfor %}
+    </ol>
+  </div>
+
+  {% if recipe.tips %}
+  <div class="recipe-section">
+    <h2>Tips</h2>
+    <ul>
+      {% for tip in recipe.tips %}
+      <li>{{ tip }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+</div>
+
+<div class="btn-row">
+  <a href="{% url 'recipes' %}" class="btn glass">{% icon "arrow-left" %} Back to Recipes</a>
+</div>
+{% endblock %}

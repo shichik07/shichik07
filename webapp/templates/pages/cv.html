@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}CV &middot; Julius Kricheldorff{% endblock %}
+
+{% block content %}
+<h1 class="page-title">Curriculum Vitae</h1>
+
+<div class="card glass">
+  <p>You can find my CV below and also
+    <a href="{% static 'files/cv.pdf' %}">download it here</a>.
+  </p>
+  <embed src="{% static 'files/cv.pdf' %}" class="cv-embed" type="application/pdf">
+</div>
+{% endblock %}
