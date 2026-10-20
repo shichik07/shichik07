@@ -99,7 +99,7 @@ RECIPES = [
         ],
         "instructions": [
             "Peel the shallots. Keep them whole, or halve them if they are large.",
-            "Heat the lard over medium heat and fry the shallots until golden brown. Only toward the end of frying, add a pinch of sugar for extra caramelisation, just before adding the kale - add it late so the sugar does not burn.",
+            "Heat the lard over medium heat and fry the shallots until golden brown. Optional: only toward the end of frying, add a pinch of sugar for extra caramelisation, just before adding the kale - add it late so the sugar does not burn.",
             "Add the kale and fry lightly for 3 minutes.",
             "Add the stock and orange juice, just enough to lightly cover the kale - we do not want to drown our greens.",
             "Put the lid on and keep on low heat for 30-45 minutes. You want soft kale with a light bite, neither too hard nor mushy.",
