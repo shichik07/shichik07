@@ -74,11 +74,52 @@ PROJECTS = [
 
 RECIPES = [
     {
+        "slug": "orange-chilli-kale",
+        "title": "Orange Chilli Kale",
+        "teaser": "Braised kale with caramelised shallots, fresh orange and a little habanero zing - even better the next day.",
+        "category": "Side Dishes",
+        "date": "October 20, 2026",
+        "servings": "Serves 4",
+        "time": "About 1 hour",
+        "source": {
+            "label": "Essen und Trinken (Grünkohl mit Orangen)",
+            "href": "https://www.essen-und-trinken.de/rezepte/44169-rzpt-gruenkohl-mit-orangen",
+            "note": "loosely adapted",
+        },
+        "ingredients": [
+            "1kg kale",
+            "300g shallots (a small bag)",
+            "50g+ lard, preferably duck (a little more won't hurt) - for a vegan version use onion lard",
+            "400ml stock - we use duck, but chicken or vegetable works too",
+            "150ml orange juice",
+            "2 small ripe oranges",
+            "1 chilli - we use fruity habaneros like Martinique or Fatali; don't overdo it, we want chilli flavour and a little zing",
+            "salt and pepper",
+            "a pinch of sugar (added at the end - this is key)",
+        ],
+        "instructions": [
+            "Peel the shallots. Keep them whole, or halve them if they are large.",
+            "Heat the lard over medium heat and fry the shallots until golden brown.",
+            "Add the kale and fry lightly for 3 minutes.",
+            "Add the stock and orange juice, just enough to lightly cover the kale - we do not want to drown our greens.",
+            "Put the lid on and keep on low heat for 30-45 minutes. You want soft kale with a light bite, neither too hard nor mushy.",
+            "In the meantime, zest one orange and set the zest aside. Then fillet both oranges and set the fillets aside.",
+            "Once the kale is done, add a slice of chilli to the kale and braising liquid, then remove it again after a short time (even more briefly if the chilli is very hot).",
+            "Season with salt, pepper and a pinch of sugar. Add the sugar only now, at the end.",
+            "Stir in the zest and gently fold in the orange fillets, trying not to break them up too much.",
+        ],
+        "tips": [
+            "We like to serve it with duck and roast potatoes, but there are many options.",
+            "Tastes even better a day later, reheated.",
+        ],
+    },
+    {
         "slug": "marinated-beef-fillet",
         "title": "Marinated Beef Fillet",
         "teaser": "The perfect recipe for your Christmas buffet - use as topping for salad or as charcuterie on top of bread.",
         "category": "Appetizers",
         "date": "December 14, 2025",
+        "intro": "A staple for our Christmas buffet tradition.",
         "source": {"label": "Essen und Trinken", "href": "https://www.essen-und-trinken.de/", "note": "August 2006"},
         "ingredients": [
             "400g beef fillet",

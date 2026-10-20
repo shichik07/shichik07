@@ -8,11 +8,15 @@
 
 <div class="card glass">
   {% if recipe.source %}
-  <p>A staple for our Christmas buffet tradition. Source for this recipe is
+  <p>{% if recipe.intro %}{{ recipe.intro }} {% endif %}Source for this recipe is
     <a href="{{ recipe.source.href }}" target="_blank" rel="noopener">{{ recipe.source.label }}</a>
     {{ recipe.source.note }}.</p>
   {% else %}
   <p>{{ recipe.teaser }}</p>
+  {% endif %}
+
+  {% if recipe.servings or recipe.time %}
+  <p><small class="recipe-meta">{{ recipe.servings }}{% if recipe.servings and recipe.time %} &bull; {% endif %}{{ recipe.time }}</small></p>
   {% endif %}
 
   <div class="recipe-section">
